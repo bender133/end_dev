@@ -1,3 +1,4 @@
 
 /docker/nginx/log/access.log
 /docker/nginx/log/error.log
+/vendor/
