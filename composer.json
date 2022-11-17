@@ -6,6 +6,21 @@
         "php-amqplib/php-amqplib": "3.4.0",
         "php": ">=8.0.2",
         "ext-ctype": "*",
-        "ext-iconv": "*"
+        "ext-iconv": "*",
+        "doctrine/cache": "*",
+        "memcachier/php-memcache-sasl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
     }
 }
